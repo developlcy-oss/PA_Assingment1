@@ -353,7 +353,7 @@ pa3@pa3-Legion-Pro-5-16IAX10:~/git/Assignment1/Asain2/ros2_ws$ ros2 run turtle_c
 
 1. **노드 실행 여부 확인**
 
-   ```bash
+   ``
    ros2 node list
    ```
 
@@ -361,7 +361,7 @@ pa3@pa3-Legion-Pro-5-16IAX10:~/git/Assignment1/Asain2/ros2_ws$ ros2 run turtle_c
 
 2. **토픽 존재 여부 확인**
 
-   ```bash
+   ```
    ros2 topic list
    ```
 
@@ -369,7 +369,7 @@ pa3@pa3-Legion-Pro-5-16IAX10:~/git/Assignment1/Asain2/ros2_ws$ ros2 run turtle_c
 
 3. **Publisher / Subscriber 연결 확인**
 
-   ```bash
+   ```
    ros2 topic info /turtle_distance
    ```
 
@@ -377,7 +377,7 @@ pa3@pa3-Legion-Pro-5-16IAX10:~/git/Assignment1/Asain2/ros2_ws$ ros2 run turtle_c
 
 4. **실제 메시지 수신 여부 확인**
 
-   ```bash
+   ```
    ros2 topic echo /turtle_distance
    ```
 
@@ -385,7 +385,7 @@ pa3@pa3-Legion-Pro-5-16IAX10:~/git/Assignment1/Asain2/ros2_ws$ ros2 run turtle_c
 
 5. **발행 주기 확인**
 
-   ```bash
+   ```
    ros2 topic hz /turtle_distance
    ```
 
@@ -394,7 +394,7 @@ pa3@pa3-Legion-Pro-5-16IAX10:~/git/Assignment1/Asain2/ros2_ws$ ros2 run turtle_c
 
 6. **원본 토픽 확인**
 
-   ```bash
+   ```
    ros2 topic echo /turtle1/pose
    ```
 
@@ -402,7 +402,7 @@ pa3@pa3-Legion-Pro-5-16IAX10:~/git/Assignment1/Asain2/ros2_ws$ ros2 run turtle_c
 
 7. **노드 간 연결 구조 확인**
 
-   ```bash
+   ```
    rqt_graph
    ```
 
